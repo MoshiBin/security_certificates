@@ -1,3 +1,7 @@
+# Throughout this file we use the "hexdump -C" command which shows the contents of a non-text file
+# in hexadecimal notation.
+
+# Source an external file just for the 'cyan' command that prints in color.
 source ../utils.sh
 set -e
 cyan Our base file:
